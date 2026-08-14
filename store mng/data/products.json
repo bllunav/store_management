@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Earring",
+        "category": "Jewellery",
+        "price": 430.0,
+        "stock": 190
+    },
+    {
+        "id": 2,
+        "name": "Necklace",
+        "category": "Jewellery",
+        "price": 700.0,
+        "stock": 170
+    },
+    {
+        "id": 3,
+        "name": "Ring",
+        "category": "Jewellery",
+        "price": 350.0,
+        "stock": 210
+    },
+    {
+        "id": 4,
+        "name": "Bracelet",
+        "category": "Jewellery",
+        "price": 500.0,
+        "stock": 130
+    }
+]
