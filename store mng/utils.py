@@ -4,9 +4,6 @@ def save(data,filename):
         json.dump(data,f,indent=4)
 
 def load(filename):
-    try:
         with open(filename, "r") as f:
             data = json.load(f)
             return data
-    except FileNotFoundError:
-        print("File Not Found!")
