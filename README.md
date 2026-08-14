@@ -5,4 +5,5 @@ managing Products, Users and Orders
 * json
 * modular project
 * no ULI yet
-# not finished
+# progress
+* Not finished
