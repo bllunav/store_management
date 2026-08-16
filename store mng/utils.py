@@ -1,6 +1,6 @@
 import json
 def save(data,filename):
-    with open(filename, "w", encoding="utf-8") as f:
+    with open(filename, "w") as f:
         json.dump(data,f,indent=4)
 
 def load(filename):
