@@ -64,3 +64,15 @@ def showProducts():
     products = load("data/products.json")
     for i in products:
         print(i)
+
+def sortPrice():
+    products = load("data/products.json")
+    products.sort(key= lambda i: i["price"])
+    for i in products:
+        print(i)
+
+def sortStock():
+    products = load("data/products.json")
+    products.sort(key= lambda i: i["stock"])
+    for i in products:
+        print(i)
