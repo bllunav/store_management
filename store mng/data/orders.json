@@ -1,11 +1,43 @@
 [
     {
-        "Order": "#1001",
-        "Customer": "Dina",
-        "Products": [
-            "Ring \u00d72",
-            "Necklace \u00d71"
+        "order": 1001,
+        "customer": "dina",
+        "products": [
+            {
+                "product_name": "ring",
+                "quantity": 2
+            },
+            {
+                "product_name": "necklace",
+                "quantity": 1
+            }
         ],
-        "Total": 1400.0
+        "total": 1400.0
+    },
+    {
+        "order": 2,
+        "customer": "mohadeseh",
+        "products": [
+            {
+                "product_name": "ring",
+                "quantity": 4
+            }
+        ],
+        "total": 3.0
+    },
+    {
+        "order": 3,
+        "customer": "mahsa",
+        "products": [
+            {
+                "product_name": "necklace",
+                "quantity": 5
+            },
+            {
+                "product_name": "bracelet",
+                "quantity": 1
+            }
+        ],
+        "total": 500.0
     }
 ]
