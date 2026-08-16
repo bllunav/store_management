@@ -28,7 +28,11 @@ def addOrder():
     orders.append(dict)
     save(orders,"data/orders.json")
     print("saved")
-    
+
+# def orderTotal():
+
+# def updateStock():
+
 def deleteOrder():
     order = int(input("enter ID: "))
     for i in orders:
