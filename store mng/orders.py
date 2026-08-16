@@ -1,6 +1,6 @@
 from utils import save,load
+orders = load("data/orders.json")
 def addOrder():
-    orders = load("data/orders.json")
     order = int(input("enter ID: "))
     for i in orders:
         if i["order"] == order:
