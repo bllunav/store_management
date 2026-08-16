@@ -28,3 +28,23 @@ def addOrder():
     orders.append(dict)
     save(orders,"data/orders.json")
     print("saved")
+def deleteOrder():
+    order = int(input("enter ID: "))
+    for i in orders:
+        if i["order"] == order:
+            orders.remove(i)
+            save(orders, "data/orders.json")
+            print("order canclled!")
+            return
+
+def showOrder():
+    order = int(input("1.show all  2.search by name: "))
+    if order == 1:
+        for i in orders:
+            print(f"customer: {i["customer"]}\n", f"order: {i["products"]}")
+    if order == 2:
+        name = input("enter name: ")
+        for i in orders:
+            if i["customer"] == name:
+                print(f"customer: {i["customer"]}\n", f"order: {i["products"]}")
+                break
