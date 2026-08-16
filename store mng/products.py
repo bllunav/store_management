@@ -11,14 +11,14 @@ def addProduct():
     price = int(input("enter price: "))
     stock = float(input("enter stock: "))
 
-    dic = {
+    dict = {
         "id": id,
         "name": name,
         "category": category,
         "price": price,
         "stock": stock
     },
-    products.append(dic)
+    products.append(dict)
     save(products,"data/products.json")
     print("saved")
 
