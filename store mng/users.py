@@ -17,7 +17,7 @@ def addUser():
     city = input("enter city: ")
     vip = bool(input("vip state - true/false: "))
 
-    dic = {
+    dict = {
         "id": id,
         "name": name,
         "phone": phone,
@@ -25,7 +25,7 @@ def addUser():
         "vip": vip
     },
 
-    users.append(dic)
+    users.append(dict)
     save(users, "data/users.json")
     print("saved")
 
