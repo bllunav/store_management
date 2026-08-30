@@ -9,7 +9,13 @@ def addProduct():
     name = input("enter name: ")
     category = input("enter category: ")
     price = int(input("enter price: "))
+    if price < 0:
+        print("can not have negetive price!")
+        return
     stock = float(input("enter stock: "))
+    if stock < 0:
+        print("can not have negetive stock!")
+        return
 
     dict = {
         "id": id,
@@ -17,7 +23,7 @@ def addProduct():
         "category": category,
         "price": price,
         "stock": stock
-    },
+    }
     products.append(dict)
     save(products,"data/products.json")
     print("saved")
