@@ -5,6 +5,6 @@ managing Products, Users and Orders
 access reports of your store
 * json
 * modular project
-* no ULI yet
+* no ULI
 # progress
-* Not finished
+* Almost finished
