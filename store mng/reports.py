@@ -65,6 +65,8 @@ def avgPrice():
     print(f"avrage price of products: {cnt/len}")
 
 # def catProducts():
+#     product = filter(lambda i: i["category"], products)
+#     print(list(product))
 
 # def mostOrder():
 
