@@ -30,8 +30,25 @@ def addOrder():
     print("saved")
 
 # def orderTotal():
+#     products = load("data/products.json")
+#     order = int(input("enter ID: "))
+#     for i in orders:
+#         if i["order"] == order:
+#             for j in products:
+#                 if (i["products"]["products name"]) == j["name"]:
+#                     total += j["price"]
+#     print(total)
 
 # def updateStock():
+#     products = load("data/products.json")
+#     order = int(input("enter ID: "))
+#     for i in orders:
+#         if i["order"] == order:
+#             for j in products:
+#                 if i["products name"] == j["name"]:
+#                     stock = int(input("enter new stocking: "))
+#                     j["stock"] = stock
+
 
 def deleteOrder():
     order = int(input("enter ID: "))
