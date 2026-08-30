@@ -23,13 +23,12 @@ def addUser():
         "phone": phone,
         "city": city,
         "vip": vip
-    },
+    }
 
     users.append(dict)
     save(users, "data/users.json")
     print("saved")
 
-# not working
 def deleteUser():
     users = load("data/users.json")
     id = int(input("enter ID: "))
@@ -39,17 +38,6 @@ def deleteUser():
             save(users, "data/users.json")
             print("user removed!")
             return
-
-def delete_user():
-    users = load("data/users.json")
-    user_id = int(input("Enter user ID: "))
-    for i in users:
-        if i["id"] == user_id:
-            users.remove(i)
-            save(users, "data/users.json")
-            print("User deleted successfully!")
-            return
-    print("User not found!")
 
 def editUser():
     users = load("data/users.json")
